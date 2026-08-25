@@ -1,0 +1,28 @@
+<style>
+  /* Activamos CSS Grid */
+  .galeria {
+    display: grid;
+
+    /* Creamos 3 columnas iguales */
+    grid-template-columns: repeat(3, 1fr);
+
+    /* Espacio de 10px entre las cajas */
+    gap: 10px;
+  }
+
+  /* Estilo de las cajas */
+  .caja {
+    padding: 30px;
+    background-color: lightblue;
+    text-align: center;
+  }
+</style>
+
+<div class="galeria">
+  <div class="caja">Caja 1</div>
+  <div class="caja">Caja 2</div>
+  <div class="caja">Caja 3</div>
+  <div class="caja">Caja 4</div>
+  <div class="caja">Caja 5</div>
+  <div class="caja">Caja 6</div>
+</div>
