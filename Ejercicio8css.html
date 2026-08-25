@@ -1,0 +1,22 @@
+<style>
+  /* En móviles habrá una sola columna */
+  .columnas {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  /* Desde 500px habrá dos columnas */
+  @media (min-width: 500px) {
+    .columnas {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+</style>
+
+<div class="columnas">
+  <div>Columna 1</div>
+  <div>Columna 2</div>
+  <div>Columna 3</div>
+  <div>Columna 4</div>
+</div>
